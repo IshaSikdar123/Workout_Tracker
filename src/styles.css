@@ -1,1 +1,110 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light Mode (default) */
+body {
+    @apply bg-white text-black;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    @apply bg-gray-900 text-gray-100;
+  }
+  
+  /* Example for specific elements */
+  .bg-primary {
+    @apply bg-white;
+  }
+  
+  body.dark .bg-primary {
+    @apply bg-gray-800;
+  }
+  
+  .text-textPrimary {
+    @apply text-black;
+  }
+  
+  body.dark .text-textPrimary {
+    @apply text-gray-200;
+  }
+  
+  .bg-secondary {
+    @apply bg-gray-100;
+  }
+  
+  body.dark .bg-secondary {
+    @apply bg-gray-700;
+  }
+  
+  .bg-accent {
+    @apply bg-blue-500;
+  }
+  
+  body.dark .bg-accent {
+    @apply bg-blue-700;
+  }
+  
+
+  
+  .dark {
+    --primary: #1a202c;
+    --secondary: #2d3748;
+    --accent: #4a5568;
+    --textPrimary: #f7fafc;
+    --textSecondary: #e2e8f0;
+  }
+  
+  .dark .bg-primary {
+    background-color: var(--primary);
+  }
+  
+  .dark .bg-secondary {
+    background-color: var(--secondary);
+  }
+  
+  .dark .bg-accent {
+    background-color: var(--accent);
+  }
+  
+  .dark .text-primary {
+    color: var(--textPrimary);
+  }
+  
+  .dark .text-secondary {
+    color: var(--textSecondary);
+  }
+
+  
+
+
+
+  
+  .dark {
+    --primary: #1a202c;
+    --secondary: #2d3748;
+    --accent: #4a5568;
+    --textPrimary: #f7fafc;
+    --textSecondary: #e2e8f0;
+  }
+  
+  .dark .bg-primary {
+    background-color: var(--primary);
+  }
+  
+  .dark .bg-secondary {
+    background-color: var(--secondary);
+  }
+  
+  .dark .bg-accent {
+    background-color: var(--accent);
+  }
+  
+  .dark .text-primary {
+    color: var(--textPrimary);
+  }
+  
+  .dark .text-secondary {
+    color: var(--textSecondary);
+  }
+  

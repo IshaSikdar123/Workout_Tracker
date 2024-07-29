@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+  }
+  
+  app-sidebar {
+    width: 200px;
+  }
+  
+  app-chart-display {
+    flex: 1;
+    padding: 20px;
+  }
+  
